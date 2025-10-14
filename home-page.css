@@ -1,0 +1,153 @@
+.sections {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.hero-section {
+  padding-top: 48px;
+}
+
+.hero-1 {
+  background-image: url("./public/homepage/hero_iphone_family_small_2x.jpg");
+  width: 100%;
+  height: 500px;
+  background-position: 50%;
+  background-size: cover;
+}
+
+.hero-link-1 {
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-text-1 {
+  text-align: center;
+}
+
+h2 {
+  font-size: 32px;
+  line-height: 1.125;
+  font-weight: 600;
+  letter-spacing: 0.004em;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
+}
+
+p {
+  margin-top: 4px !important;
+}
+
+.btns-group-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 17px;
+}
+
+a {
+  font-size: 14px;
+}
+
+.cta-hero-1 {
+  color: white;
+  background-color: blue;
+  padding: 7px 15px;
+  border-radius: 50px;
+}
+
+.cta-hero-2 {
+  color: blue;
+  border: 1px solid blue;
+  padding: 7px 15px;
+  border-radius: 50px;
+}
+
+.subhead {
+  margin-top: 22px !important;
+}
+
+.subhead span {
+  font-size: 14px;
+  display: inline-block;
+  text-align: center;
+  background: linear-gradient(94deg, #0090f7, #ba62fc, #f2416b, #f55600);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero-2 {
+  background-image: url("./public/homepage/hero_macbook_air_small_2x.jpg");
+  width: 100%;
+  height: 500px;
+  background-position: 50%;
+  background-size: cover;
+}
+
+.hero-link-2 {
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.hero-3 {
+  background-image: url("./public/homepage/promo_airpods_pro_2_small_2x\ \(1\).jpg");
+  width: 100%;
+  height: 500px;
+  background-position: 50%;
+  background-size: cover;
+  color: white;
+}
+
+.hero-link-3 {
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: flex-end;
+}
+
+.hero-4 {
+  background-image: url("./public/homepage/promo_apple_watch_series_10_small_2x.jpg");
+  width: 100%;
+  height: 500px;
+  background-position: 50%;
+  background-size: cover;
+  color: black;
+}
+
+.hero-link-4 {
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.hero-text-4 h2 {
+  background-image: url("./public/homepage/promo_logo_apple_watch_series_10_small_2x.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  color: transparent;
+}
+
+.hero-text-4 p {
+  margin-top: 10px !important;
+}
+
+.hero-3-4-flex {
+  display: grid;
+  gap: 12px;
+  grid-template-columns: 1fr;
+}
+
+@media (width >= 735px) {
+  .hero-3-4-flex {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
