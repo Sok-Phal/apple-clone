@@ -157,6 +157,7 @@ class Footer extends HTMLElement {
                 <span class="footer-text">
                     <p>Copyright © 2025 Apple Inc. All rights reserved.</p>
                     <p><a href="">Privacy Policy</a> |  <a href="">Term of Use</a> | <a href="">Sales and Refunds</a> | <a href="">Legal</a> | <a href="">Site Map</a></p>
+                    <p>Educational clone. Not affiliated with Apple Inc.</p>
                 </span>  
             </div>
         </div>
